@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?<openbox_menu
+	<menu id="root-menu" label="Openbox 3">
+		<menu execute="openbox-menu lxde-applications.menu" id="apps" label="Applications"/>
+	</menu>
+>
