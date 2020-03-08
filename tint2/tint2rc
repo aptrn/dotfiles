@@ -226,28 +226,6 @@ battery_uwheel_command =
 battery_dwheel_command = 
 ac_connected_cmd = 
 ac_disconnected_cmd = 
-
-#-------------------------------------
-# Executor 1
-execp = new
-execp_command = volumeicon
-execp_interval = 0
-execp_has_icon = 1
-execp_cache_icon = 0
-execp_continuous = 0
-execp_markup = 1
-execp_lclick_command = 
-execp_rclick_command = 
-execp_mclick_command = 
-execp_uwheel_command = 
-execp_dwheel_command = 
-execp_font_color = #000000 100
-execp_padding = 0 0
-execp_background_id = -1
-execp_centered = 0
-execp_icon_w = 0
-execp_icon_h = 0
-
 #-------------------------------------
 # Tooltip
 tooltip_show_timeout = 0.5
