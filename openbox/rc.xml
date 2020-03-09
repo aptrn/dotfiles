@@ -243,6 +243,11 @@
 		<action name="Execute">
 			<execute>ranger</execute>
 		</action>
+	</keybind>
+	<keybind key="W-c">
+		<action name="Execute">
+			<execute>code</execute>
+		</action>
 	</keybind>	
 <!-- Keybindings for windows -->
 	<keybind key="A-F4">

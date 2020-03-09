@@ -1,3 +1,5 @@
+nm-applet &
+volti &
 tint2 &
 nitrogen --restore &
 xset +fp ~/.fonts/misc/
