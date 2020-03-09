@@ -254,6 +254,11 @@
 			<execute>spotify</execute>
 		</action>
 	</keybind>	
+	<keybind key="W-u">
+		<action name="Execute">
+			<execute>telegram-desktop</execute>
+		</action>
+	</keybind>	
 <!-- Keybindings for windows -->
 	<keybind key="A-F4">
 		<action name="Close"/>

@@ -2,7 +2,7 @@ echo "update packages"
 apt update
 apt upgrade -y
 echo "install new packages"
-apt install xorg lightdm lightdm-gtk-greeter openbox obconf obmenu compton lxappearance pcmanfm tint2 nitrogen firefox geany xarchiver pulseaudio pulseaudio-utils alsa-utils volti network-manager-gnome rxvt-unicode xsel zsh ranger feh vlc -y
+apt install xorg lightdm lightdm-gtk-greeter openbox obconf obmenu compton lxappearance pcmanfm tint2 nitrogen conky firefox geany xarchiver pulseaudio pulseaudio-utils alsa-utils volti network-manager-gnome rxvt-unicode xsel zsh ranger feh vlc -y
 echo "creating missing conf folders"
 mkdir ~/.config
 mkdir ~/.themes
@@ -18,6 +18,9 @@ cp -r ./.urxvt ~/
 cp -r ./lightdm /etc/
 cp .Xdefaults ~/
 cp monsters.jpg ~/Pictures/
+echo "installing telegram"
+sudo add-apt-repository ppa:atareao/telegram
+sudo apt update && sudo apt install telegram
 echo "installing spotify"
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
