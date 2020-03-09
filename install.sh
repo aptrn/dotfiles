@@ -21,9 +21,7 @@ cp .Xdefaults ~/
 cp compton.conf ~/.config
 cp monsters.jpg ~/Pictures/
 echo "installing telegram"
-sudo add-apt-repository ppa:atareao/telegram -y
-sudo apt update
-sudo apt install telegram -y
+snap install telegram-desktop
 echo "installing spotify"
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
