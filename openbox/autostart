@@ -2,5 +2,6 @@ nm-applet &
 volti &
 compton &
 tint2 &
+conky &
 nitrogen --restore &
 xset +fp ~/.fonts/misc/
