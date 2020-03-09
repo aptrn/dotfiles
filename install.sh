@@ -21,7 +21,7 @@ cp .Xdefaults ~/
 cp compton.conf ~/.config
 cp monsters.jpg ~/Pictures/
 echo "installing telegram"
-sudo add-apt-repository ppa:atareao/telegram
+sudo add-apt-repository ppa:atareao/telegram -y
 sudo apt update
 sudo apt install telegram -y
 echo "installing spotify"
