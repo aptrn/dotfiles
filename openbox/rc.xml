@@ -249,6 +249,11 @@
 			<execute>code</execute>
 		</action>
 	</keybind>	
+	<keybind key="W-s">
+		<action name="Execute">
+			<execute>spotify</execute>
+		</action>
+	</keybind>	
 <!-- Keybindings for windows -->
 	<keybind key="A-F4">
 		<action name="Close"/>
