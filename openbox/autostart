@@ -1,7 +1,7 @@
 nm-applet &
 volti &
-compton &
+compton -b -s ~/.config/compton.conf &
 tint2 &
-conky &
+conky -c ~/.config/conky/conky.conf &
 nitrogen --restore &
 xset +fp ~/.fonts/misc/
