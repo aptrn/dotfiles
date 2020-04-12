@@ -1,7 +1,29 @@
-nm-applet &
-volti &
+# Compositor
 compton -b --config ~/.config/compton.conf &
+
+# Power management
+xfce4-power-manager &
+
+# Conky
 conky -d -c ~/.config/conky/conky.conf &
+
+# Notifications
+dunst -config ~/.config/dunst/dunstrc &
+
+# Tint2
+(sleep 2; tint2) &
+
+# Clipboard
+clipit &
+
+# Background
 nitrogen --restore &
-tint2 &
-xset +fp ~/.fonts/misc/
+
+# Volume
+(sleep 2; volumeicon) &
+
+#xset +fp ~/.fonts/misc/
+
+# Network Manager
+nm-applet &
+
