@@ -354,7 +354,7 @@
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>flameshot gui</command>
       </action>
     </keybind>
   </keyboard>
