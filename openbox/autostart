@@ -1,3 +1,5 @@
+xrdb -load .Xresources
+
 # Compositor
 compton -b --config ~/.config/compton.conf &
 
