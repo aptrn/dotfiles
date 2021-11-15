@@ -5,6 +5,7 @@ mkdir ~/Pictures
 echo "copying confs"
 sudo cp -r ./slim.conf /etc/
 cp ./.xinitrc ~/
+cp ./.zshrc ~/
 cp -r ./openbox/ ~/.config
 cp -r ./tint2/ ~/.config
 cp -r ./conky/ ~/.config
