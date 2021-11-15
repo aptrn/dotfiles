@@ -2,7 +2,7 @@ echo "update packages"
 sudo apt update
 sudo apt upgrade -y
 echo "install new packages"
-sudo apt install obconf lxappearance pcmanfm tint2 nitrogen conky firefox zsh feh vlc telegram-desktop xfce4-battery-plugin xfce4-power-manager xfce4-clipman rofi dunst dbus-x11 libnotify-bin xsel rxvt-unicode flameshot xbacklight xserver-xorg-input-synaptics -y
+sudo apt install obconf lxappearance gnome-themes-extra pcmanfm tint2 nitrogen conky firefox zsh feh vlc telegram-desktop xfce4-battery-plugin xfce4-power-manager xfce4-clipman rofi dunst dbus-x11 libnotify-bin xsel rxvt-unicode flameshot xbacklight xserver-xorg-input-synaptics -y
 echo "change timezone"
 sudo timedatectl set-timezone Europe/Rome
 echo "enabling wirless"
